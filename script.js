@@ -1,4 +1,4 @@
-document.querySelector('#mp3').innerHTML = `<audio src="audio.mp3" autoplay muted loop ></audio>`
+document.querySelector('#mp3').innerHTML = `<audio src="audio.mp3" autoplay controls muted loop ></audio>`
 let v = document.querySelector('audio')
 function ranges()
 {
